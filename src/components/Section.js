@@ -30,8 +30,8 @@ export default Section;
 const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
-  background: covser;
-  background-positioin: center;
+  background-size: cover;
+  backgrounnd-position: center;
   background-repeat: no-repeat;
   background-image: url("/images/model-s.jpg");
   display: flex;
@@ -56,7 +56,7 @@ const ButtonGroup = styled.div`
 
 const LeftButton = styled.div`
   background-color: rgb(23, 26, 32, 0.8);
-  heght: 40px;
+  height: 40px;
   width: 256px;
   color: white;
   display: flex;
